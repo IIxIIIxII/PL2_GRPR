@@ -13,7 +13,7 @@ const Game = () => {
 
     dispatch(startSpin()); // Списываем 10 баллов
 
-    // --- Симуляция Бэкенда (удали в проде) ---
+    // --- Симуляция Бэкенда ---
     const roll = Math.random() * 100;
     let result = { prize: 'loss', points_change: 0, new_status: null, message: 'Проигрыш.' };
     let stopAngle = 0; // Сектор 1 (Ничего)
